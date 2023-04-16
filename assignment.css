@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background: hsla(217, 100%, 50%, 1);
+
+    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+   
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.container{
+    width: 432px;
+    height: 535px;
+    background-color: white;
+    border-radius: 15px;
+    font-family: 'Poppins',sans-serif;
+    padding: 40px;
+    
+}
+.container header{
+    text-align: center;
+    margin-top: 19px;
+}
+img.logo{
+    width: 48px;
+    margin: 0 auto;
+}
+.container .text{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 12px;
+}
+.container .text span{
+   color: rgb(132, 0, 255);
+}
+.container .message{
+    font-size: 19px;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+
+.container form{
+    margin-top: 20px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+   /*border: 2px solid red;*/
+}
+
+.container form input{
+    padding: 8px 12px;
+       height: 32px;
+    border-radius: 10px;
+    border: 1px solid rgb(209, 213, 219);
+
+   
+}
+
+.container form input:focus{
+    border: 1px solid purple !important;
+    outline: none;
+    transition: .9s ease;
+}
+
+.container form .pass{
+    display: flex;
+    align-items: center;
+}
+
+.container form .pass input{
+    flex-grow: 1;
+
+}
+
+.container form .pass svg{
+  
+   height: 32px;
+   margin-left: 5px;
+
+   
+}
+
+#forgot{
+    text-align: end;
+    color: purple;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+    margin-left: 10px;
+    margin-top: 10px;
+    flex-grow: 2;
+    text-align: center;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    height: 30px;
+    outline: none;
+    border: none;
+}
+
+
+
+#button a{
+    text-decoration: none;
+    text-align: center;
+  
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    align-items: center;
+   margin-top: 3px;
+}
+
+
+   
+   
+
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.container1 {
+    height: 400px;
+    background-color: black;
+}
+
+div.ball1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffbf00ed;
+    animation-duration: 2s;
+    animation-name: motion;
+    animation-iteration-count: infinite;
+}
+
+@keyframes motion {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(100px, 100px);
+    }
+    50% {
+        transform: translate(0, 350px);
+    }
+    75% {
+        transform: translate(100px, 350px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
